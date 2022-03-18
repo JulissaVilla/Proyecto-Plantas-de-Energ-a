@@ -21,7 +21,7 @@ public class Dinero_Recaudado {
 			return totaldinero;
 			
 		}
-		if(region.toLowerCase().equals("sierra")) {
+		if(region.toLowerCase().equals("Sierra")) {
 			
 			double dinero =0;
 			int totalConsumo = 0;
@@ -40,7 +40,7 @@ public class Dinero_Recaudado {
 			return totaldinero;
 			
 		}
-		if(region.toLowerCase().equals("oriente")) {
+		if(region.toLowerCase().equals("Oriente")) {
 			return 0;
 		}
 		return 0;
