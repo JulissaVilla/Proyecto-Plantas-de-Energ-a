@@ -41,8 +41,8 @@ public class Nuevo_Diccionario {
 			mp.put("Sopladora", totalconsumo);
 			return mp;
 		}
-		
-		if(ciudad.toLowerCase().equals("loja")) {
+	                
+		if(ciudad.toLowerCase().equals("Loja")) {
 			int totalConsumo = 0;
 			int [] consumos = {50, 32, 32, 50, 32, 32, 50, 32, 32, 50, 32, 32};
 			for (int i = 0; i < consumos.length; i++) {
