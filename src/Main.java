@@ -16,7 +16,7 @@ public class Main {
 			System.out.println("3 Dinero recaudado");
 			System.out.println("0 Salir del programa");
 			System.out.println(" ");
-			System.out.println("Ingrese opción: ");
+			System.out.println("Ingrese opciÃ³n: ");
 
 			int numero = sc.nextInt();
 			
@@ -47,7 +47,7 @@ public class Main {
 			}
 			else if (numero == 3) {
 				Scanner sc1=new Scanner(System.in);
-				System.out.print("Ingrese la region 'costa''sierra''oriente': ");
+				System.out.print("Insertar la region 'costa''sierra''oriente': ");
 				String region = sc1.nextLine();
 				
 				Dinero_Recaudado din= new Dinero_Recaudado();
